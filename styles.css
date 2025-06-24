@@ -75,11 +75,14 @@ body{
     background-color:#8C3CBB;
     margin:10px;
     border-radius: 30px;
+    border:#bf79e8 1px solid;
 }
 .navbar22 p:hover{
+    transition: 1s;
     cursor:pointer;
-    color:rgb(52, 51, 51);
-    background-color:#bf79e8;
+    border:#bf79e8 1px solid;
+    color: black ;
+    background-color:transparent;
 }
 .frnt img{
     width:100%;
@@ -92,9 +95,22 @@ body{
     background-color: gray;
     margin: 10px;
     left:200px;
-    
+    animation-name: zoom;
+    animation-duration: 2s;
+    animation-fill-mode: forwards   ;
+    opacity: 0;
 }
-
+@keyframes zoom{
+    0%{
+        transform: scale(0);
+        opacity:0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+        
+    }
+}
 .rmdtitle{
     padding: 10px;
     
