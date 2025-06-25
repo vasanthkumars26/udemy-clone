@@ -308,13 +308,17 @@ body{
     .navbar22{
         display: none;
     }
-    .navbar__s3{
-        display: none;
-    }
+  .navbar__s3{
+    display: none;
+  }
 
 @media screen and (min-width:700px ){
     .navbar__s4{
         display:none;
+    }
+    .navbar__s3{
+        display: flex;
+        
     }
     .hh{
     top:40% ;
