@@ -320,6 +320,9 @@ body{
         display: flex;
         
     }
+    .navbar22{
+        display: flex;
+    }
     .hh{
     top:40% ;
      font-size: small;
